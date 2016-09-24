@@ -24,6 +24,17 @@ class VinhTestController: UIViewController {
         rootRef = FIRDatabase.database().reference()
         let conditionRef = rootRef.child("food")
         conditionRef.setValue("Testing");
+        upload()
+    }
+    
+    func upload() {
+        // Get a reference to the storage service, using the default Firebase App
+        let storage = FIRStorage.storage()
+        
+        // Create a storage reference from our storage service
+        let storageRef = storage.referenceForURL("gs://vnbuzz-foodie.appspot.com")
+        
+        let imagesRef = storageRef.child("mountains.jpg")
     }
 }
 

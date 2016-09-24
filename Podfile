@@ -8,4 +8,5 @@ target 'Foodie' do
   # Pods for Foodie
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 end

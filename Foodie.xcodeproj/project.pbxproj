@@ -17,6 +17,9 @@
 		19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */; };
 		19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */; };
 		7A9774FEE3F38D4A394B6EEE /* Pods_Foodie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ABCE08B259205C5CB8C2B2 /* Pods_Foodie.framework */; };
+		D8E40C471D9735A9002E6CEB /* VinhTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E40C461D9735A9002E6CEB /* VinhTestController.swift */; };
+		D8E40C491D973F7D002E6CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E40C481D973F7D002E6CEB /* ViewController.swift */; };
+		D8E40C4B1D9740E7002E6CEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		19D8A2E01D96CB64000B6EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		984AD40163C119D8A1DC2620 /* Pods-Foodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodie/Pods-Foodie.debug.xcconfig"; sourceTree = "<group>"; };
 		C1ABCE08B259205C5CB8C2B2 /* Pods_Foodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E40C461D9735A9002E6CEB /* VinhTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinhTestController.swift; sourceTree = "<group>"; };
+		D8E40C481D973F7D002E6CEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +79,15 @@
 				19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */,
 				19D8A2D51D96CB64000B6EF5 /* Main.storyboard */,
 				19A896991D97448C0002D695 /* View in Maps.png */,
+				D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */,
 				195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */,
 				195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */,
 				19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */,
 				19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */,
 				19D8A2E01D96CB64000B6EF5 /* Info.plist */,
 				19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */,
+				D8E40C461D9735A9002E6CEB /* VinhTestController.swift */,
+				D8E40C481D973F7D002E6CEB /* ViewController.swift */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -169,6 +178,7 @@
 				19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */,
 				195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */,
 				19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */,
+				D8E40C4B1D9740E7002E6CEB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E40C491D973F7D002E6CEB /* ViewController.swift in Sources */,
+				D8E40C471D9735A9002E6CEB /* VinhTestController.swift in Sources */,
 				19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */,
 				19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */,
 				19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */,

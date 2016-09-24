@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */; };
+		195A45641D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */; };
 		19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */; };
-		19D8A2D41D96CB64000B6EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D31D96CB64000B6EF5 /* ViewController.swift */; };
+		19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */; };
 		19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2D51D96CB64000B6EF5 /* Main.storyboard */; };
 		19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */; };
 		19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg"; sourceTree = "<group>"; };
+		195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "180815-bun-thit-nuong-body- (7).jpg"; sourceTree = "<group>"; };
 		19D8A2CE1D96CB64000B6EF5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19D8A2D31D96CB64000B6EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreenController.swift; sourceTree = "<group>"; };
 		19D8A2D61D96CB64000B6EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D8A2D91D96CB64000B6EF5 /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
 		19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */,
-				19D8A2D31D96CB64000B6EF5 /* ViewController.swift */,
+				19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */,
 				19D8A2D51D96CB64000B6EF5 /* Main.storyboard */,
+				195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */,
+				195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */,
 				19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */,
 				19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */,
 				19D8A2E01D96CB64000B6EF5 /* Info.plist */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					19D8A2CD1D96CB64000B6EF5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = U7QNQ8S9JB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195A45641D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg in Resources */,
 				19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */,
 				19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */,
+				195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */,
 				19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D8A2D41D96CB64000B6EF5 /* ViewController.swift in Sources */,
+				19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */,
 				19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */,
 				19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */,
 			);
@@ -264,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7QNQ8S9JB;
 				INFOPLIST_FILE = Foodie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VNBuzz.Foodie;
@@ -276,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U7QNQ8S9JB;
 				INFOPLIST_FILE = Foodie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VNBuzz.Foodie;

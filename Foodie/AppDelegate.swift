@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 
@@ -43,6 +42,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
+//    func uploadSampleData() {//-> [Food] {
+//        let url = Bundle.main.url(forResource: "food", withExtension: "json")
+//        let data = NSData(contentsOf: url!)
+//        
+//        do {
+//            let jsonResult = try JSONSerialization.jsonObject(with: data! as Data, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
+//            let jsonArray = jsonResult.value(forKey: "food") as! NSArray
+//            
+//            //var food = [Food] = []
+////            
+////            for json in jsonArray {
+////                let Title = jsonArray["Title"] as? String
+////                let Description = jsonArray["Description"] as? String
+////                let Price = jsonArray["Price"] as? String
+////                
+////                let f = Food(Title: Title!, Description: Description!, Price: Price!)
+////                food.append(f)
+////            }
+////            for f in food {
+////                print (f.Title!)
+////            }
+//            //return food
+//        }
+//        catch {
+//            fatalError("Cannot upload sample data")
+//        }
+//    }
 
     // MARK: - Core Data stack
 

@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */; };
-		19D8A2D41D96CB64000B6EF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D31D96CB64000B6EF5 /* ViewController.swift */; };
 		19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2D51D96CB64000B6EF5 /* Main.storyboard */; };
 		19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */; };
 		19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */; };
 		19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */; };
+		AA00B8731D97B60E006AC484 /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00B8721D97B60E006AC484 /* PostImageViewController.swift */; };
+		AA00B8751D97D2D0006AC484 /* SellViewController-temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00B8741D97D2D0006AC484 /* SellViewController-temp.swift */; };
+		AA5241B61D97317C00F0E1FF /* FakeDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5241B51D97317C00F0E1FF /* FakeDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19D8A2CE1D96CB64000B6EF5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19D8A2D31D96CB64000B6EF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19D8A2D61D96CB64000B6EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D8A2D91D96CB64000B6EF5 /* Foodie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodie.xcdatamodel; sourceTree = "<group>"; };
 		19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D8A2DE1D96CB64000B6EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D8A2E01D96CB64000B6EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA00B8721D97B60E006AC484 /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageViewController.swift; sourceTree = "<group>"; };
+		AA00B8741D97D2D0006AC484 /* SellViewController-temp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SellViewController-temp.swift"; sourceTree = "<group>"; };
+		AA5241B51D97317C00F0E1FF /* FakeDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */,
-				19D8A2D31D96CB64000B6EF5 /* ViewController.swift */,
+				AA5241B51D97317C00F0E1FF /* FakeDatabase.swift */,
 				19D8A2D51D96CB64000B6EF5 /* Main.storyboard */,
+				AA00B8721D97B60E006AC484 /* PostImageViewController.swift */,
 				19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */,
 				19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */,
 				19D8A2E01D96CB64000B6EF5 /* Info.plist */,
 				19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */,
+				AA00B8741D97D2D0006AC484 /* SellViewController-temp.swift */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D8A2D41D96CB64000B6EF5 /* ViewController.swift in Sources */,
+				AA00B8751D97D2D0006AC484 /* SellViewController-temp.swift in Sources */,
+				AA00B8731D97B60E006AC484 /* PostImageViewController.swift in Sources */,
+				AA5241B61D97317C00F0E1FF /* FakeDatabase.swift in Sources */,
 				19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */,
 				19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */,
 			);

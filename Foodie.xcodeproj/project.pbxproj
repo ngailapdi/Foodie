@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19069AF21D97E19600D77598 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 19069AF11D97E19600D77598 /* Login.png */; };
 		190F76B31D97BDEA00BC0C1C /* Purchase.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B21D97BDEA00BC0C1C /* Purchase.png */; };
 		190F76B51D97BE3E00BC0C1C /* Recommend.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B41D97BE3E00BC0C1C /* Recommend.png */; };
 		190F76B91D97C82700BC0C1C /* apple pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B81D97C82700BC0C1C /* apple pay.png */; };
+		190F76BB1D97D3B400BC0C1C /* 3-5-stars-2bmbspe.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76BA1D97D3B400BC0C1C /* 3-5-stars-2bmbspe.png */; };
 		195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */; };
 		195A45641D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */; };
+		19A9A9261D97EABF009A02F1 /* DataFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A9251D97EABF009A02F1 /* DataFood.swift */; };
+		19A9A92C1D97F75D009A02F1 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A9A92B1D97F75D009A02F1 /* MainScreen.swift */; };
 		19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */; };
 		19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */; };
 		19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2D51D96CB64000B6EF5 /* Main.storyboard */; };
@@ -25,11 +29,15 @@
 
 /* Begin PBXFileReference section */
 		0B51C49E8EBCE5D232F510AF /* Pods-Foodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodie/Pods-Foodie.release.xcconfig"; sourceTree = "<group>"; };
+		19069AF11D97E19600D77598 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 		190F76B21D97BDEA00BC0C1C /* Purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purchase.png; sourceTree = "<group>"; };
 		190F76B41D97BE3E00BC0C1C /* Recommend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recommend.png; sourceTree = "<group>"; };
 		190F76B81D97C82700BC0C1C /* apple pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple pay.png"; sourceTree = "<group>"; };
+		190F76BA1D97D3B400BC0C1C /* 3-5-stars-2bmbspe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3-5-stars-2bmbspe.png"; sourceTree = "<group>"; };
 		195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg"; sourceTree = "<group>"; };
 		195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "180815-bun-thit-nuong-body- (7).jpg"; sourceTree = "<group>"; };
+		19A9A9251D97EABF009A02F1 /* DataFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFood.swift; sourceTree = "<group>"; };
+		19A9A92B1D97F75D009A02F1 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		19D8A2CE1D96CB64000B6EF5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreenController.swift; sourceTree = "<group>"; };
@@ -77,9 +85,12 @@
 		19D8A2D01D96CB64000B6EF5 /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				19A9A92B1D97F75D009A02F1 /* MainScreen.swift */,
 				19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */,
 				19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */,
 				19D8A2D51D96CB64000B6EF5 /* Main.storyboard */,
+				19069AF11D97E19600D77598 /* Login.png */,
+				190F76BA1D97D3B400BC0C1C /* 3-5-stars-2bmbspe.png */,
 				190F76B81D97C82700BC0C1C /* apple pay.png */,
 				190F76B21D97BDEA00BC0C1C /* Purchase.png */,
 				D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */,
@@ -91,6 +102,7 @@
 				19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */,
 				D8E40C461D9735A9002E6CEB /* VinhTestController.swift */,
 				D8E40C481D973F7D002E6CEB /* ViewController.swift */,
+				19A9A9251D97EABF009A02F1 /* DataFood.swift */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -179,8 +191,10 @@
 				19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */,
 				190F76B51D97BE3E00BC0C1C /* Recommend.png in Resources */,
 				190F76B31D97BDEA00BC0C1C /* Purchase.png in Resources */,
+				190F76BB1D97D3B400BC0C1C /* 3-5-stars-2bmbspe.png in Resources */,
 				19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */,
 				195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */,
+				19069AF21D97E19600D77598 /* Login.png in Resources */,
 				19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */,
 				D8E40C4B1D9740E7002E6CEB /* GoogleService-Info.plist in Resources */,
 			);
@@ -242,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8E40C491D973F7D002E6CEB /* ViewController.swift in Sources */,
+				19A9A92C1D97F75D009A02F1 /* MainScreen.swift in Sources */,
 				D8E40C471D9735A9002E6CEB /* VinhTestController.swift in Sources */,
+				19A9A9261D97EABF009A02F1 /* DataFood.swift in Sources */,
 				19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */,
 				19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */,
 				19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */,

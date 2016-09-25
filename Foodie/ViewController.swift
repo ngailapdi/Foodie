@@ -11,15 +11,31 @@ import UIKit
 import MapKit
 import Firebase
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+   var array = [DataFood]()
+    
+    @IBOutlet var tableView: UITableView!
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section:Int) -> Int
+    {
+        return array.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Food")!
+        cell.textLabel?.text = array[indexPath.row].Title
+        return cell
         
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("Helooooooooooo")
+        array.append(DataFood(Title : "Bun Bo"))
+        
     }
 }
 

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190F76B31D97BDEA00BC0C1C /* Purchase.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B21D97BDEA00BC0C1C /* Purchase.png */; };
+		190F76B51D97BE3E00BC0C1C /* Recommend.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B41D97BE3E00BC0C1C /* Recommend.png */; };
+		190F76B91D97C82700BC0C1C /* apple pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F76B81D97C82700BC0C1C /* apple pay.png */; };
 		195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */; };
 		195A45641D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */; };
-		19A8969A1D97448C0002D695 /* View in Maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 19A896991D97448C0002D695 /* View in Maps.png */; };
 		19D8A2D21D96CB64000B6EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */; };
 		19D8A2D41D96CB64000B6EF5 /* ProductScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */; };
 		19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2D51D96CB64000B6EF5 /* Main.storyboard */; };
 		19D8A2DA1D96CB64000B6EF5 /* Foodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D8A2D81D96CB64000B6EF5 /* Foodie.xcdatamodeld */; };
 		19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DB1D96CB64000B6EF5 /* Assets.xcassets */; };
 		19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D8A2DD1D96CB64000B6EF5 /* LaunchScreen.storyboard */; };
-		7A9774FEE3F38D4A394B6EEE /* Pods_Foodie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1ABCE08B259205C5CB8C2B2 /* Pods_Foodie.framework */; };
 		D8E40C471D9735A9002E6CEB /* VinhTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E40C461D9735A9002E6CEB /* VinhTestController.swift */; };
 		D8E40C491D973F7D002E6CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E40C481D973F7D002E6CEB /* ViewController.swift */; };
 		D8E40C4B1D9740E7002E6CEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */; };
@@ -24,9 +25,11 @@
 
 /* Begin PBXFileReference section */
 		0B51C49E8EBCE5D232F510AF /* Pods-Foodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodie/Pods-Foodie.release.xcconfig"; sourceTree = "<group>"; };
+		190F76B21D97BDEA00BC0C1C /* Purchase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purchase.png; sourceTree = "<group>"; };
+		190F76B41D97BE3E00BC0C1C /* Recommend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Recommend.png; sourceTree = "<group>"; };
+		190F76B81D97C82700BC0C1C /* apple pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple pay.png"; sourceTree = "<group>"; };
 		195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg"; sourceTree = "<group>"; };
 		195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "180815-bun-thit-nuong-body- (7).jpg"; sourceTree = "<group>"; };
-		19A896991D97448C0002D695 /* View in Maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "View in Maps.png"; sourceTree = "<group>"; };
 		19D8A2CE1D96CB64000B6EF5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductScreenController.swift; sourceTree = "<group>"; };
@@ -36,7 +39,6 @@
 		19D8A2DE1D96CB64000B6EF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D8A2E01D96CB64000B6EF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		984AD40163C119D8A1DC2620 /* Pods-Foodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodie/Pods-Foodie.debug.xcconfig"; sourceTree = "<group>"; };
-		C1ABCE08B259205C5CB8C2B2 /* Pods_Foodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E40C461D9735A9002E6CEB /* VinhTestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinhTestController.swift; sourceTree = "<group>"; };
 		D8E40C481D973F7D002E6CEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -47,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9774FEE3F38D4A394B6EEE /* Pods_Foodie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +58,7 @@
 		19D8A2C51D96CB64000B6EF5 = {
 			isa = PBXGroup;
 			children = (
+				190F76B41D97BE3E00BC0C1C /* Recommend.png */,
 				19D8A2D01D96CB64000B6EF5 /* Foodie */,
 				19D8A2CF1D96CB64000B6EF5 /* Products */,
 				5BD6FAFAD5062CD60963A01C /* Pods */,
@@ -78,7 +80,8 @@
 				19D8A2D11D96CB64000B6EF5 /* AppDelegate.swift */,
 				19D8A2D31D96CB64000B6EF5 /* ProductScreenController.swift */,
 				19D8A2D51D96CB64000B6EF5 /* Main.storyboard */,
-				19A896991D97448C0002D695 /* View in Maps.png */,
+				190F76B81D97C82700BC0C1C /* apple pay.png */,
+				190F76B21D97BDEA00BC0C1C /* Purchase.png */,
 				D8E40C4A1D9740E7002E6CEB /* GoogleService-Info.plist */,
 				195A45611D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg */,
 				195A45631D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg */,
@@ -104,7 +107,6 @@
 		78ABF644B3C1EC9D069DA0F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1ABCE08B259205C5CB8C2B2 /* Pods_Foodie.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,9 +174,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190F76B91D97C82700BC0C1C /* apple pay.png in Resources */,
 				195A45641D971DCD00306429 /* 180815-bun-thit-nuong-body- (7).jpg in Resources */,
 				19D8A2DF1D96CB64000B6EF5 /* LaunchScreen.storyboard in Resources */,
-				19A8969A1D97448C0002D695 /* View in Maps.png in Resources */,
+				190F76B51D97BE3E00BC0C1C /* Recommend.png in Resources */,
+				190F76B31D97BDEA00BC0C1C /* Purchase.png in Resources */,
 				19D8A2DC1D96CB64000B6EF5 /* Assets.xcassets in Resources */,
 				195A45621D971D7C00306429 /* 96-bun-cha-gio-thit-nuong-vermicelli-with-spring-rolls-and-grilled-pork.jpg in Resources */,
 				19D8A2D71D96CB64000B6EF5 /* Main.storyboard in Resources */,
